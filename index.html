@@ -1,157 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Matthew's Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link href="styles/indexstyle.css" rel="stylesheet"/>
+	<script src="scripts/indexscipt.js" type="module"></script>
 </head>
-<body class="bod">
+<body>
 	<div class="sidenav">
- 	 	<a href="#">Welcome</a>
+ 		<a href="#">Welcome</a>
  		<a href="#">Hobbies</a>
 	  	<a href="#">Projects</a>
 	  	<a href="#">Contact</a>
 	</div>
 
-	<h1 class="Welc">Welcome To Matthew's Portfolio</h1>
-	<h2 class="About">About Me:</h2>
-	<p class="ab">So a little about me, I am quite a young adventurous person who loves the outdoors, but very frequently finds himself inside due to my love of computers and technology in general.
-		I am an avid gamer who loves puzzle games and adventure games in perticular but my real passion is tinkering with tech but also coding in general.
-		I really just love messing around with technology whether it be coding related or hardware related, I love to see what it does when you change something, see the cause and effect in action, see what makes it tick.
-		I am also a lover of films and series but in perticular the cinematography behind it. How the lighting is set up, How a certain shot is set up in a perticular way to show something about the character, I really appreciate the directers.
-		Furthermore, I have a craving to know more I feel like knowledge is never ending and you can always know more about a topic you enjoy. I feel you should know that I created this website entirely by scratch, no AI, no webite creater, just a lot of googling and know how.
-		<br><br>Now for some of the less heavy hitting things:<br><br>My favourite colour is <span style="color: red; -webkit-text-stroke: 2px #000000; font-weight: bold; font-style: italic;">Red</span><br>I own two cats, called melody and mittens🐈
-	</p>
-	<h1 class="Welc">Kitty Gallery</h1>
-	<div class="responsive">
-		<div class="gallery">
-    		<a target="_blank" href="Images/Hugging.jpg">
-				<img src="Images/Hugging.jpg" alt="Two cats named Melody and Mittens cuddling together on a cozy blanket in a softly lit room, both appearing relaxed and content">
-    		</a>
-    	<div class="desc">My two cats Melody and Mittens sitting together on the bed, hugging each other</div>
-	</div>
-	<div class="responsive">
-		<div class="gallery">
-    		<a target="_blank" href="Images/Outsidetogether.jpg">
-				<img src="Images/Outsidetogether.jpg" alt="Two cats named Melody and Mittens playing together outside in a sunny garden, both appearing happy and energetic">
-    		</a>
-    	<div class="desc">My two cats Melody and Mittens playing together outside in the garden</div>
-	</div>
-	<div class="responsive">
-		<div class="gallery">
-    		<a target="_blank" href="Images/Stickerimage.jpg">
-				<img src="Images/Stickerimage.jpg" alt="Melody and Mittens, two cats, sitting together on a bed surrounded by colorful stickers and playful decorations, both appearing curious and relaxed in a cozy, softly lit room.">
-    		</a>
-    	<div class="desc">My two cats Melody and Mittens surrounded by stickers and decorations</div>
-	</div>
-	<div class="responsive">
-		<div class="gallery">
-    		<a target="_blank" href="Images/Mittensbox.jpg">
-				<img src="Images/Mittensbox.jpg" alt="Melody and Mittens, two cats, playing together in a cardboard box, both appearing curious and playful. The environment is cozy and filled with soft lighting. No visible text in the image.">
-    		</a>
-    	<div class="desc">Mittens sitting in an empty box</div>
-	</div>
-		<div class="responsive">
-			<div class="gallery">
-				<a target="_blank" href="Images/melscross.jpg">
-					<img src="Images/melscross.jpg" alt="My cat Melody sitting down with her arms crossed">
-				</a>
-    	<div class="desc">Melody sitting down with her arms crossed</div>
-	</div>
-</div>
 </body>
 </html>
-<head>
-	<style>
-		.bod{
-			background: -webkit-linear-gradient(45deg, #ff0000, #c46f00);
-			font-family: Arial, Helvetica, sans-serif;
-			margin-left: 160px;
-			padding: 0px 10px;
-			min-height: 100vh;
-		}
-		.Welc{
-			color: red; 
-			text-align: center;
-			font-size: 64px;
-			font-weight: bold;
-			-webkit-text-stroke: 1.5px black;
-		}
-		.About{
-			font-size: 42px;
-		}
-		.ab{
-			padding-left: 5%;
-			padding-right: 20%;
-			font-size: 30px;
-		}
-		.sidenav {
-			height: 100%;
-			width: 160px;
-			position: fixed;
-			z-index: 1;
-			top: 0; 
-			left: 0;
-			background-color: #111111;
-			overflow-x: hidden;
-			padding-top: 20px;
-		}
-
-
-		.sidenav a {
-			padding: 6px 8px 6px 16px;
-			text-decoration: none;
-			font-size: 30px;
-			color: #818181;
-			display: block;
-		}
-
-		.sidenav a:hover {
-			color: #f1f1f1;
-		}
-		div.gallery {
-		border: 1px solid #ccc;
-		width: 500px;
-		height: auto;
-		
-
-		}
-
-		div.gallery:hover {
-		border: 1px solid #777;
-		}
-
-		div.gallery img {
-		width: 100%;
-		height: auto;
-		}
-
-		div.desc {
-		padding: 15px;
-		text-align: center;
-		}
-
-		* {
-		box-sizing: border-box;
-		}
-
-		.responsive {
-		display: flex;
-		padding: 0 6px;
-		gap: 16px;
-		justify-content: center;
-		flex-wrap: wrap-reverse;
-		
-		}
-
-		@media only screen and (max-width: 700px) {
-		.responsive {
-			width: 49.99999%;
-			margin: 6px 0;
-		}
-		}
-
-		@media only screen and (max-width: 500px) {
-		.responsive {
-			width: 100%;
-		}
-		}
-	</style>
-</head>

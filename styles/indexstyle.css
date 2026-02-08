@@ -1,0 +1,92 @@
+body{
+    background: -webkit-linear-gradient(135deg, #ff0000, #0262d1);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+    padding: 0px 10px;
+    min-height: 100vh;
+}
+.Welc{
+    color: red; 
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    -webkit-text-stroke: 1.5px black;
+}
+.About{
+    font-size: 42px;
+}
+.ab{
+    padding-left: 5%;
+    padding-right: 20%;
+    font-size: 30px;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+div.gallery {
+border: 1px solid #ccc;
+width: 500px;
+height: auto;
+
+
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.responsive {
+display: flex;
+padding: 0 6px;
+gap: 16px;
+justify-content: center;
+flex-wrap: wrap-reverse;
+
+}
+
+@media only screen and (max-width: 700px) {
+.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.responsive {
+    width: 100%;
+}
+}
