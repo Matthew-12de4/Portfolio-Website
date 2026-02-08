@@ -1,92 +1,35 @@
 body{
-    background: -webkit-linear-gradient(135deg, #ff0000, #0262d1);
+    background: linear-gradient(135deg, #ff0000, #0262d1);
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 160px;
-    padding: 0px 10px;
     min-height: 100vh;
 }
-.Welc{
-    color: red; 
+
+.buttons{
     text-align: center;
-    font-size: 64px;
-    font-weight: bold;
-    -webkit-text-stroke: 1.5px black;
-}
-.About{
-    font-size: 42px;
-}
-.ab{
-    padding-left: 5%;
-    padding-right: 20%;
-    font-size: 30px;
-}
-.sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0; 
-    left: 0;
-    background-color: #111111;
-    overflow-x: hidden;
-    padding-top: 20px;
+    margin-top: 65vh;
 }
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
+.buttons a{
+    padding: 10px;
+    font-size: 50px;
+    margin: 3%;
     text-decoration: none;
-    font-size: 30px;
-    color: #818181;
-    display: block;
+    color: #b3b3b3;
+    background-color: #1f1f1f;
+    border-radius: 25px;
 }
 
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-div.gallery {
-border: 1px solid #ccc;
-width: 500px;
-height: auto;
-
-
+.buttons a:hover{
+    padding: 12px;
+    color: #ffffffff;
 }
 
-div.gallery:hover {
-border: 1px solid #777;
+.name{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 20%;
 }
-
-div.gallery img {
-width: 100%;
-height: auto;
-}
-
-div.desc {
-padding: 15px;
-text-align: center;
-}
-
-* {
-box-sizing: border-box;
-}
-
-.responsive {
-display: flex;
-padding: 0 6px;
-gap: 16px;
-justify-content: center;
-flex-wrap: wrap-reverse;
-
-}
-
-@media only screen and (max-width: 700px) {
-.responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-}
-}
-
-@media only screen and (max-width: 500px) {
-.responsive {
-    width: 100%;
-}
+.undername{
+    font-size: 50px;
+    text-align: center;
 }

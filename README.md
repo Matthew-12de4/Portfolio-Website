@@ -1,1 +1,1 @@
-README
+This is my portfolio that is currently in development and will be continually updated throught university
