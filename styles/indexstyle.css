@@ -7,18 +7,18 @@ body{
 .unibuttons{
     position: relative;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 25vh;
 }
 
 .unibuttons a{
     display: inline-block;
-    padding: 10px;
-    font-size: 50px;
+    padding: 0.5vw;
+    font-size: 2.8vw;
     margin: 3%;
     text-decoration: none;
     color: #b3b3b3;
     background-color: #1f1f1f;
-    border-radius: 25px;
+    border-radius: 1.2vw;
     transition: all 0.75s ease;
     transform: scale(1);
 }
@@ -28,44 +28,55 @@ body{
     color: #ffffffff;
 }
 .unibuttons h1{
-    font-size: 45px;
-    padding-bottom: 30px;
+    font-size: 2.5vw;
+    padding-bottom: 1.5vh;
 }
 
-.RAFAC{
+.qual{
     position: relative;
     text-align: center;
     margin-top: 7%;
 }
 
-.RAFAC a{
+.qual a{
     display: inline-block;
-    padding: 10px;
-    font-size: 50px;
+    padding: 0.5vw;
+    font-size: 2.8vw;
     margin: 3%;
     text-decoration: none;
     color: #b3b3b3;
     background-color: #1f1f1f;
-    border-radius: 25px;
+    border-radius: 1.2vw;
     transition: all 0.75s ease;
     transform: scale(1);
 }
 
-.RAFAC a:hover{
+.qual a:hover{
     transform: scale(1.2) perspective(1px);
     color: #ffffffff;
 }
-.RAFAC h1{
-    font-size: 45px;
-    padding-bottom: 30px;
+.qual h1{
+    font-size: 2.5vw;
+    padding-bottom: 1.5vh;
 }
 
 .name{
-    font-size: 75px;
+    font-size: 3.5vw;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 40vh;
 }
 .undername{
-    font-size: 50px;
+    font-size: 2.8vw;
     text-align: center;
+}
+.about{
+    margin-top: 50vh;
+    font-size: 1.7vw;
+    text-align: center;
+}
+.desc{
+    font-size: 1.1vw;
+    justify-content: center;
+    text-align: center;
+    padding: 0 150px 0;
 }
