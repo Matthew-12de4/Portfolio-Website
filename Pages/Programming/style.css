@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(135deg, #ff0000, #0262d1);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+.title{
+    font-size: 3.5vw;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.column{
+    float:left;
+    padding: 0px 5% 0px 5%;
+}
+.column h2{
+    text-align: center;
+}
+.column img {
+    opacity: 1;
+    cursor: pointer;
+    width: 20vh;
+}
+.column img:hover { /*make it on hover change to an in game screen shot from its title card*/ 
+    opacity: 0.9;
+}
+
+.row{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    display: block;
+    background: #00000049;
+    width: 50vw;
+    height: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(2vw);
+    
+}
+.expandedMedia{
+    margin-left: 1%;
+}
+.desc{
+    margin-top: 0px;
+    margin-left: 1%;
+    color: #ffffff;
+}
+.gitLink{
+    margin-left: 1%;
+    color: #717171;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
