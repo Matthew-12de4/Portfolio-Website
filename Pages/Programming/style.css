@@ -38,7 +38,7 @@ body{
 }
 
 .container {
-    display: block;
+    display: none;
     background: #00000049;
     width: 50vw;
     height: 35vh;
