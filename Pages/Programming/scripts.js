@@ -1,17 +1,20 @@
 window.expand = expand;
 window.collapse = collapse;
 
-function expand(contentDisplay, description, gitLink)
+function expand(img, contentToDisplay, description, gitLink)
 {
     let expandedVideo = document.querySelector(".expandedMedia");
     let expandedHeader = document.querySelector(".desc");
     let expandedGitLink = document.querySelector(".gitLink");
 
-    expandedGitLink.href = gitLink;
+    let xPos = (window.scrollX + img.getBoundingClientRect().left) - 8;
 
+    expandedGitLink.href = gitLink;
     expandedHeader.innerHTML = description;
 
-    expandedVideo.src = contentDisplay;
+    expandedVideo.parentElement.style.marginLeft = String(xPos).concat("px");
+
+    expandedVideo.src = contentToDisplay;
     expandedVideo.parentElement.style.display = "block";
     expandedVideo.load();
     expandedVideo.play();
