@@ -1,82 +1,167 @@
-body{
-    background: linear-gradient(135deg, #ff0000, #0262d1);
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 200vh;
-}
+@media only screen and (min-width: 801px){
+    body{
+        background: linear-gradient(135deg, #ff0000, #0262d1);
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 200vh;
+    }
 
-.unibuttons{
-    position: relative;
-    text-align: center;
-    margin-top: 25vh;
-}
+    .unibuttons{
+        position: relative;
+        text-align: center;
+        margin-top: 25vh;
+    }
 
-.unibuttons a{
-    display: inline-block;
-    padding: 0.5vw;
-    font-size: 2.8vw;
-    margin: 3%;
-    text-decoration: none;
-    color: #b3b3b3;
-    background-color: #1f1f1f;
-    border-radius: 1.2vw;
-    transition: all 0.75s ease;
-    transform: scale(1);
-}
+    .unibuttons a{
+        display: inline-block;
+        padding: 0.5vw;
+        font-size: 2.8vw;
+        margin: 3%;
+        text-decoration: none;
+        color: #b3b3b3;
+        background-color: #1f1f1f;
+        border-radius: 1.2vw;
+        transition: all 0.75s ease;
+        transform: scale(1);
+    }
 
-.unibuttons a:hover{
-    transform: scale(1.2) perspective(1px);
-    color: #ffffffff;
-}
-.unibuttons h1{
-    font-size: 2.5vw;
-    padding-bottom: 1.5vh;
-}
+    .unibuttons a:hover{
+        transform: scale(1.2) perspective(1px);
+        color: #ffffffff;
+    }
+    .unibuttons h1{
+        font-size: 2.5vw;
+        padding-bottom: 1.5vh;
+    }
 
-.qual{
-    position: relative;
-    text-align: center;
-    margin-top: 7%;
-}
+    .qual{
+        position: relative;
+        text-align: center;
+        margin-top: 7%;
+    }
 
-.qual a{
-    display: inline-block;
-    padding: 0.5vw;
-    font-size: 2.8vw;
-    margin: 3%;
-    text-decoration: none;
-    color: #b3b3b3;
-    background-color: #1f1f1f;
-    border-radius: 1.2vw;
-    transition: all 0.75s ease;
-    transform: scale(1);
-}
+    .qual a{
+        display: inline-block;
+        padding: 0.5vw;
+        font-size: 2.8vw;
+        margin: 3%;
+        text-decoration: none;
+        color: #b3b3b3;
+        background-color: #1f1f1f;
+        border-radius: 1.2vw;
+        transition: all 0.75s ease;
+        transform: scale(1);
+    }
 
-.qual a:hover{
-    transform: scale(1.2) perspective(1px);
-    color: #ffffffff;
-}
-.qual h1{
-    font-size: 2.5vw;
-    padding-bottom: 1.5vh;
-}
+    .qual a:hover{
+        transform: scale(1.2) perspective(1px);
+        color: #ffffffff;
+    }
+    .qual h1{
+        font-size: 2.5vw;
+        padding-bottom: 1.5vh;
+    }
 
-.name{
-    font-size: 3.5vw;
-    text-align: center;
-    margin-top: 40vh;
+    .name{
+        font-size: 3.5vw;
+        text-align: center;
+        margin-top: 40vh;
+    }
+    .undername{
+        font-size: 2.8vw;
+        text-align: center;
+    }
+    .about{
+        margin-top: 50vh;
+        font-size: 1.7vw;
+        text-align: center;
+    }
+    .desc{
+        font-size: 1.1vw;
+        justify-content: center;
+        text-align: center;
+        padding: 0 150px 0;
+    }
 }
-.undername{
-    font-size: 2.8vw;
-    text-align: center;
-}
-.about{
-    margin-top: 50vh;
-    font-size: 1.7vw;
-    text-align: center;
-}
-.desc{
-    font-size: 1.1vw;
-    justify-content: center;
-    text-align: center;
-    padding: 0 150px 0;
+@media only screen and (max-width: 800px) {
+    body{
+        background: linear-gradient(135deg, #ff0000, #0262d1);
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 200vh;
+    }
+
+    .unibuttons{
+        position: relative;
+        text-align: center;
+        margin-top: 25vh;
+    }
+
+    .unibuttons a{
+        display: inline-block;
+        padding: 0.5vw;
+        font-size: 50px;
+        margin: 3%;
+        text-decoration: none;
+        color: #b3b3b3;
+        background-color: #1f1f1f;
+        border-radius: 1.2vw;
+        transition: all 0.75s ease;
+        transform: scale(1);
+    }
+
+    .unibuttons a:hover{
+        transform: scale(1.2) perspective(1px);
+        color: #ffffffff;
+    }
+    .unibuttons h1{
+        font-size: 10vw;
+        padding-bottom: 1.5vh;
+    }
+
+    .qual{
+        position: relative;
+        text-align: center;
+        margin-top: 7%;
+    }
+
+    .qual a{
+        display: inline-block;
+        padding: 0.5vw;
+        font-size: 50px;
+        margin: 3%;
+        text-decoration: none;
+        color: #b3b3b3;
+        background-color: #1f1f1f;
+        border-radius: 1.2vw;
+        transition: all 0.75s ease;
+        transform: scale(1);
+    }
+
+    .qual a:hover{
+        transform: scale(1.2) perspective(1px);
+        color: #ffffffff;
+    }
+    .qual h1{
+        font-size: 10vw;
+        padding-bottom: 1.5vh;
+    }
+
+    .name{
+        font-size: 10vw;
+        text-align: center;
+        margin-top: 40vh;
+    }
+    .undername{
+        font-size: 8vw;
+        text-align: center;
+    }
+    .about{
+        margin-top: 50vh;
+        font-size: 8vw;
+        text-align: center;
+    }
+    .desc{
+        font-size: 7w;
+        justify-content: center;
+        text-align: center;
+    }
 }

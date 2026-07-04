@@ -1,67 +1,144 @@
-body{
-    overflow: hidden;
-    background: linear-gradient(135deg, #ff0000, #0262d1);
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 60vw;
+
+
+@media only screen and (min-width: 801px){
+    body{
+        overflow: hidden;
+        background: linear-gradient(135deg, #ff0000, #0262d1);
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 100vh;
+    }
+    .title{
+        font-size: 3.5vw;
+        text-align: center;
+        margin-top: 5vh;
+    }
+    
+    .column{
+        float:left;
+        padding: 0px 5% 0px 5%;
+    }
+    .column h2{
+        text-align: center;
+    }
+    .column img {
+        opacity: 1;
+        cursor: pointer;
+        width: 20vh;
+    }
+    .column img:hover { /*make it on hover change to an in game screen shot from its title card*/ 
+        opacity: 0.9;
+    }
+    
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .container {
+        display: none;
+        background: #00000049;
+        width:min-content;
+        height:fit-content;
+        padding: 7.5px 10px 1px 10px;
+        transform: translateY(2vw);
+        text-align: center;
+    }
+    
+    .desc{
+        color: #ffffff;
+        text-align: left;
+    }
+    .gitLink{
+        color: #717171;
+        text-align: left;
+    }
+    
+    .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
 }
 
-.title{
-    font-size: 3.5vw;
-    text-align: center;
-    margin-top: 5vh;
-}
+@media only screen and (max-width: 800px) {
+   body 
+   {
+        background: linear-gradient(135deg, #ff0000, #0262d1);
+        font-family: Arial, Helvetica, sans-serif;
+        min-height: 120vh;
+   }
+   .title{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 5vh;
+    }
+    
+    .column{
+        padding: 0px 5% 0px 5%;
+    }
+    .column h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .column img {
+        align-self: center ;
+        opacity: 1;
+        cursor: pointer;
+        width: 43vh;
+    }
+    .column img:hover { /*make it on hover change to an in game screen shot from its title card*/ 
+        opacity: 0.9;
+    }
+    
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-.column{
-    float:left;
-    padding: 0px 5% 0px 5%;
-}
-.column h2{
-    text-align: center;
-}
-.column img {
-    opacity: 1;
-    cursor: pointer;
-    width: 20vh;
-}
-.column img:hover { /*make it on hover change to an in game screen shot from its title card*/ 
-    opacity: 0.9;
-}
-
-.row{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.container {
-    display: none;
-    background: #00000049;
-    width:min-content;
-    height:fit-content;
-    padding: 7.5px 10px 1px 10px;
-    transform: translateY(2vw);
-    text-align: center;
-}
-
-.desc{
-    color: #ffffff;
-    text-align: left;
-}
-.gitLink{
-    color: #717171;
-    text-align: left;
-}
-
-.closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .container {
+        display: none;
+        background: #00000049;
+        width:min-content;
+        height:fit-content;
+        padding: 7.5px 10px 1px 10px;
+        transform: translateY(2vw);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .desc{
+        color: #ffffff;
+        text-align: left;
+    }
+    .gitLink{
+        color: #717171;
+        text-align: left;
+    }
+    
+    .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
 }
