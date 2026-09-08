@@ -1,12 +1,24 @@
 
 
 @media only screen and (min-width: 801px){
-    body{
-        overflow: hidden;
-        background: linear-gradient(135deg, #ff0000, #0262d1);
-        font-family: Arial, Helvetica, sans-serif;
-        min-height: 100vh;
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
     }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .pageBackground{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(135deg, #ff0000, #0262d1);
+        z-index: -1;
+    }
+
     .title{
         font-size: 3.5vw;
         text-align: center;
